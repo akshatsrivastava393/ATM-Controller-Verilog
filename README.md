@@ -57,6 +57,7 @@ ATM-Controller-Verilog/
 
 ---
 
+
 ## FSM2 States
 
 - TX_IDLE
@@ -97,7 +98,29 @@ The simulation verifies:
 - FSM Handshake Communication
 
 ---
+## Simulation Waveforms
 
+### Handshake Communication
+
+![Handshake](images/waveform_handshake.png)
+
+---
+
+### Cash Withdrawal
+
+![Withdrawal](images/waveform_withdraw.png)
+
+---
+
+### Cash Deposit
+
+![Deposit](images/waveform_deposit.png)
+
+---
+
+### PIN Authentication
+
+![PIN](images/waveform_pin_auth.png)
 ## Tools Used
 
 - Verilog HDL
