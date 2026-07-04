@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_atm_top_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_atm_top" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="337.340 ns"></ZoomStartTime>
+      <ZoomEndTime time="405.080 ns"></ZoomEndTime>
+      <Cursor1Time time="1,000.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="340"></NameColumnWidth>
+      <ValueColumnWidth column_width="100"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="68" />
+   <wvobject fp_name="/tb_atm_top/uut/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_atm_top/uut/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_atm_top/uut/card_inserted" type="logic">
+      <obj_property name="ElementShortName">card_inserted</obj_property>
+      <obj_property name="ObjectShortName">card_inserted</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_atm_top/uut/keypad_digit" type="array">
+      <obj_property name="ElementShortName">keypad_digit[3:0]</obj_property>
+      <obj_property name="ObjectShortName">keypad_digit[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_atm_top/uut/digit_valid" type="logic">
+      <obj_property name="ElementShortName">digit_valid</obj_property>
+      <obj_property name="ObjectShortName">digit_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_atm_top/uut/stored_pin" type="array">
+      <obj_property name="ElementShortName">stored_pin[15:0]</obj_property>
+      <obj_property name="ObjectShortName">stored_pin[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_atm_top/uut/tx_sel" type="array">
+      <obj_property name="ElementShortName">tx_sel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_sel[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_atm_top/uut/amount_entered" type="logic">
+      <obj_property name="ElementShortName">amount_entered</obj_property>
+      <obj_property name="ObjectShortName">amount_entered</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_atm_top/uut/amount_reg" type="array">
+      <obj_property name="ElementShortName">amount_reg[7:0]</obj_property>
+      <obj_property name="ObjectShortName">amount_reg[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_atm_top/uut/account_balance" type="array">
+      <obj_property name="ElementShortName">account_balance[7:0]</obj_property>
+      <obj_property name="ObjectShortName">account_balance[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_atm_top/uut/eject_card" type="logic">
+      <obj_property name="ElementShortName">eject_card</obj_property>
+      <obj_property name="ObjectShortName">eject_card</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_atm_top/uut/blocked" type="logic">
+      <obj_property name="ElementShortName">blocked</obj_property>
+      <obj_property name="ObjectShortName">blocked</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_atm_top/uut/authenticated" type="logic">
+      <obj_property name="ElementShortName">authenticated</obj_property>
+      <obj_property name="ObjectShortName">authenticated</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_atm_top/uut/dispense_cash" type="logic">
+      <obj_property name="ElementShortName">dispense_cash</obj_property>
+      <obj_property name="ObjectShortName">dispense_cash</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_atm_top/uut/accept_cash" type="logic">
+      <obj_property name="ElementShortName">accept_cash</obj_property>
+      <obj_property name="ObjectShortName">accept_cash</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_atm_top/uut/screen_msg" type="array">
+      <obj_property name="ElementShortName">screen_msg[2:0]</obj_property>
+      <obj_property name="ObjectShortName">screen_msg[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_atm_top/uut/tx_success" type="logic">
+      <obj_property name="ElementShortName">tx_success</obj_property>
+      <obj_property name="ObjectShortName">tx_success</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_atm_top/uut/tx_start" type="logic">
+      <obj_property name="ElementShortName">tx_start</obj_property>
+      <obj_property name="ObjectShortName">tx_start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_atm_top/uut/tx_done" type="logic">
+      <obj_property name="ElementShortName">tx_done</obj_property>
+      <obj_property name="ObjectShortName">tx_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_atm_top/uut/fsm1/state" type="array">
+      <obj_property name="ElementShortName">state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">state[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_atm_top/uut/fsm1/state" type="array">
+      <obj_property name="ElementShortName">state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">state[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_atm_top/uut/fsm1/next_state" type="array">
+      <obj_property name="ElementShortName">next_state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">next_state[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_atm_top/uut/fsm1/try_count" type="array">
+      <obj_property name="ElementShortName">try_count[1:0]</obj_property>
+      <obj_property name="ObjectShortName">try_count[1:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_atm_top/uut/fsm1/entered_pin" type="array">
+      <obj_property name="ElementShortName">entered_pin[15:0]</obj_property>
+      <obj_property name="ObjectShortName">entered_pin[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_atm_top/uut/fsm1/digit_count" type="array">
+      <obj_property name="ElementShortName">digit_count[1:0]</obj_property>
+      <obj_property name="ObjectShortName">digit_count[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_atm_top/uut/fsm1/pin_entered" type="logic">
+      <obj_property name="ElementShortName">pin_entered</obj_property>
+      <obj_property name="ObjectShortName">pin_entered</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_atm_top/uut/fsm1/tx_done" type="logic">
+      <obj_property name="ElementShortName">tx_done</obj_property>
+      <obj_property name="ObjectShortName">tx_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_atm_top/uut/fsm1/stored_pin" type="array">
+      <obj_property name="ElementShortName">stored_pin[15:0]</obj_property>
+      <obj_property name="ObjectShortName">stored_pin[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_atm_top/uut/fsm1/card_inserted" type="logic">
+      <obj_property name="ElementShortName">card_inserted</obj_property>
+      <obj_property name="ObjectShortName">card_inserted</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_atm_top/uut/fsm1/keypad_digit" type="array">
+      <obj_property name="ElementShortName">keypad_digit[3:0]</obj_property>
+      <obj_property name="ObjectShortName">keypad_digit[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_atm_top/uut/fsm1/tx_start" type="logic">
+      <obj_property name="ElementShortName">tx_start</obj_property>
+      <obj_property name="ObjectShortName">tx_start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_atm_top/uut/fsm1/eject_card" type="logic">
+      <obj_property name="ElementShortName">eject_card</obj_property>
+      <obj_property name="ObjectShortName">eject_card</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_atm_top/uut/fsm1/blocked" type="logic">
+      <obj_property name="ElementShortName">blocked</obj_property>
+      <obj_property name="ObjectShortName">blocked</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_atm_top/uut/fsm1/authenticated" type="logic">
+      <obj_property name="ElementShortName">authenticated</obj_property>
+      <obj_property name="ObjectShortName">authenticated</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_atm_top/uut/fsm2/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_atm_top/uut/fsm2/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_atm_top/uut/fsm2/tx_start" type="logic">
+      <obj_property name="ElementShortName">tx_start</obj_property>
+      <obj_property name="ObjectShortName">tx_start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_atm_top/uut/fsm2/tx_sel" type="array">
+      <obj_property name="ElementShortName">tx_sel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_sel[1:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_atm_top/uut/fsm2/amount_entered" type="logic">
+      <obj_property name="ElementShortName">amount_entered</obj_property>
+      <obj_property name="ObjectShortName">amount_entered</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_atm_top/uut/fsm2/amount_reg" type="array">
+      <obj_property name="ElementShortName">amount_reg[7:0]</obj_property>
+      <obj_property name="ObjectShortName">amount_reg[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_atm_top/uut/fsm2/account_balance" type="array">
+      <obj_property name="ElementShortName">account_balance[7:0]</obj_property>
+      <obj_property name="ObjectShortName">account_balance[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_atm_top/uut/fsm2/tx_done" type="logic">
+      <obj_property name="ElementShortName">tx_done</obj_property>
+      <obj_property name="ObjectShortName">tx_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_atm_top/uut/fsm2/tx_success" type="logic">
+      <obj_property name="ElementShortName">tx_success</obj_property>
+      <obj_property name="ObjectShortName">tx_success</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_atm_top/uut/fsm2/dispense_cash" type="logic">
+      <obj_property name="ElementShortName">dispense_cash</obj_property>
+      <obj_property name="ObjectShortName">dispense_cash</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_atm_top/uut/fsm2/accept_cash" type="logic">
+      <obj_property name="ElementShortName">accept_cash</obj_property>
+      <obj_property name="ObjectShortName">accept_cash</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_atm_top/uut/fsm2/screen_msg" type="array">
+      <obj_property name="ElementShortName">screen_msg[2:0]</obj_property>
+      <obj_property name="ObjectShortName">screen_msg[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_atm_top/uut/fsm2/state" type="array">
+      <obj_property name="ElementShortName">state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">state[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_atm_top/uut/fsm2/next_state" type="array">
+      <obj_property name="ElementShortName">next_state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">next_state[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_atm_top/uut/fsm2/tx_failed" type="logic">
+      <obj_property name="ElementShortName">tx_failed</obj_property>
+      <obj_property name="ObjectShortName">tx_failed</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_atm_top/uut/fsm2/TX_IDLE" type="array">
+      <obj_property name="ElementShortName">TX_IDLE[3:0]</obj_property>
+      <obj_property name="ObjectShortName">TX_IDLE[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_atm_top/uut/fsm2/SELECT_TX" type="array">
+      <obj_property name="ElementShortName">SELECT_TX[3:0]</obj_property>
+      <obj_property name="ObjectShortName">SELECT_TX[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_atm_top/uut/fsm2/ENTER_AMOUNT" type="array">
+      <obj_property name="ElementShortName">ENTER_AMOUNT[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ENTER_AMOUNT[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_atm_top/uut/fsm2/CHECK_BALANCE" type="array">
+      <obj_property name="ElementShortName">CHECK_BALANCE[3:0]</obj_property>
+      <obj_property name="ObjectShortName">CHECK_BALANCE[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_atm_top/uut/fsm2/DISPENSE" type="array">
+      <obj_property name="ElementShortName">DISPENSE[3:0]</obj_property>
+      <obj_property name="ObjectShortName">DISPENSE[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_atm_top/uut/fsm2/DEPOSIT" type="array">
+      <obj_property name="ElementShortName">DEPOSIT[3:0]</obj_property>
+      <obj_property name="ObjectShortName">DEPOSIT[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_atm_top/uut/fsm2/SHOW_BAL" type="array">
+      <obj_property name="ElementShortName">SHOW_BAL[3:0]</obj_property>
+      <obj_property name="ObjectShortName">SHOW_BAL[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_atm_top/uut/fsm2/INSUFFICIENT_FUNDS" type="array">
+      <obj_property name="ElementShortName">INSUFFICIENT_FUNDS[3:0]</obj_property>
+      <obj_property name="ObjectShortName">INSUFFICIENT_FUNDS[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_atm_top/uut/fsm2/TX_COMPLETE" type="array">
+      <obj_property name="ElementShortName">TX_COMPLETE[3:0]</obj_property>
+      <obj_property name="ObjectShortName">TX_COMPLETE[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_atm_top/uut/fsm2/MSG_NONE" type="array">
+      <obj_property name="ElementShortName">MSG_NONE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">MSG_NONE[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_atm_top/uut/fsm2/MSG_SELECT" type="array">
+      <obj_property name="ElementShortName">MSG_SELECT[2:0]</obj_property>
+      <obj_property name="ObjectShortName">MSG_SELECT[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_atm_top/uut/fsm2/MSG_ENTER_AMT" type="array">
+      <obj_property name="ElementShortName">MSG_ENTER_AMT[2:0]</obj_property>
+      <obj_property name="ObjectShortName">MSG_ENTER_AMT[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_atm_top/uut/fsm2/MSG_DISPENSING" type="array">
+      <obj_property name="ElementShortName">MSG_DISPENSING[2:0]</obj_property>
+      <obj_property name="ObjectShortName">MSG_DISPENSING[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_atm_top/uut/fsm2/MSG_DEPOSITING" type="array">
+      <obj_property name="ElementShortName">MSG_DEPOSITING[2:0]</obj_property>
+      <obj_property name="ObjectShortName">MSG_DEPOSITING[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_atm_top/uut/fsm2/MSG_BALANCE" type="array">
+      <obj_property name="ElementShortName">MSG_BALANCE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">MSG_BALANCE[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_atm_top/uut/fsm2/MSG_INSUF" type="array">
+      <obj_property name="ElementShortName">MSG_INSUF[2:0]</obj_property>
+      <obj_property name="ObjectShortName">MSG_INSUF[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_atm_top/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_atm_top/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_atm_top/card_inserted" type="logic">
+      <obj_property name="ElementShortName">card_inserted</obj_property>
+      <obj_property name="ObjectShortName">card_inserted</obj_property>
+   </wvobject>
+</wave_config>
